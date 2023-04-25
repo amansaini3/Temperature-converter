@@ -1,7 +1,15 @@
-
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #131b36;
+  
+}
   .wrapper {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background: linear-gradient(180deg, #139293, 5%, #119dff, 50%, #030423);
     background-position: center;
     background-repeat: no-repeat;
